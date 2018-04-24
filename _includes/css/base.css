@@ -52,7 +52,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #fff;
+		background: #fafafa;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -333,3 +333,27 @@
 	.add-bottom { margin-bottom: 20px !important; }
 
 
+/* Custom Compoentns */
+
+.tag{
+	background-color: #ddd;
+    padding: 7px;
+    display: inline-block;
+	border-radius: 9px;
+	margin-bottom: 8px;
+}
+
+.project-list{
+	list-style: none;
+}
+.project-list li {
+	margin-bottom: 12px;
+}
+.project-list li a {
+	text-decoration: underline;
+	color: #ee3355;
+}
+
+img{
+	max-width: 850px;
+}

@@ -1,26 +1,26 @@
 # Theme customization - please change from the defaults!
 
 # Color for top bar, links, etc
-highlight_color: '#3498db'
+highlight_color: '#292663'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
+  github: marikaya
   #bitbucket: philipj
   hacker_news: swanson
   #stackexchange: 348619
   #stackoverflow: 348619
   twitter: _swanson
-  #facebook: zuck
+  facebook: muhammet.arikaya
   #tumblr: animalygifs
   #linkedin: philipjagielski
   #gplus: 110552447039675960964
-  #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
+  gravatar: e92078cbf33691cc5c2015ea42f2b424
   #flickr: johndoe
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
+name: Muhammet ARIKAYA
+email: m.arikayaw@gmail.com
 tagline: "weak opinions, strongly held"
 
 # Google Analytics key, leave blank to ignore

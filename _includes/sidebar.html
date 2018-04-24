@@ -1,5 +1,5 @@
 <nav>
-  <h1>Hi.</h1>
+  <h1>Hi!!!</h1>
   <a href="/">
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
@@ -7,11 +7,26 @@
     <img src="/logo.png" id="logo" alt="Blog logo"/>
     {% endif %}
   </a>
-  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
-  <div id="bio">
-    <p>A brief bio or something witty.</p>
-    <p>
-      Edit me in <code>_includes/sidebar.html</code>
+  <h2> <a href="/about.html">{{ site.data.theme.name }}</a></h2>
+  <div id="bio">  
+      <span class="tag">curious</span>
+      <span class="tag">human</span>
+      <span class="tag">computer engineer</span>
+      <span class="tag">cosmos lover</span>
+      <span class="tag">thinker</span>
+      <span class="tag">spanhilosospanhy</span>
+      <span class="tag">criticism</span>
+      <h3>My Projects</h3>
+      
+      <ul class="project-list">
+          <li><a href="/analytics">Data Analytic Tool</a></li>
+          <li><a href="">Jira Project Initiation Plugin</a></li>
+          <li><a href="">Mobile Number Portability</a></li>
+          <li><a href="">Turkcell Marketting Messaging</a></li>
+          <li><a href="">BulkSMS</a></li>
+          <li><a href="">Equipment Identity Registrar</a></li>
+          <li><a href="">BudgetRight</a></li>
+      </ul>
     </p>
   </div>
   <div id="social">
